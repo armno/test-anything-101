@@ -11,3 +11,4 @@ for any truthy value. (same with `assert.ok()` i think).
 where i can describe more about the tests in case it fails or passes.
 - chapter 3 i learned about `t.plan()` to tell `tape` how many times the callback runs
 so i can verify that the callback was called exactly X times.
+- chapter 4 i learned about tests that expect errors: an Error is actually thrown for some specific case, not just produces erros output.
