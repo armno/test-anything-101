@@ -9,3 +9,5 @@ Learning how to test node code with `test-anything`. http://nodeschool.io/#works
 for any truthy value. (same with `assert.ok()` i think).
 - chapter 3 i learned about `tape` module. it provides more descriptive tests
 where i can describe more about the tests in case it fails or passes.
+- chapter 3 i learned about `t.plan()` to tell `tape` how many times the callback runs
+so i can verify that the callback was called exactly X times.
